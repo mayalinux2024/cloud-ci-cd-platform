@@ -1,0 +1,13 @@
+Prepended http:// to 'sudo'
+--2026-06-20 20:10:50--  http://sudo/
+Resolving sudo (sudo)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘sudo’
+Prepended http:// to 'wget'
+--2026-06-20 20:10:50--  http://wget/
+Resolving wget (wget)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘wget’
+Prepended http:// to 'echo'
+--2026-06-20 20:10:50--  http://echo/
+Resolving echo (echo)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘echo’
+deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/: Scheme missing.
