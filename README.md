@@ -91,9 +91,15 @@ GitHub Webhooks automatically trigger Jenkins builds on every push to the main b
 
 <img width="577" height="472" alt="Jenkins-build#9-console-1" src="https://github.com/user-attachments/assets/20db4ebc-ab86-4256-bae4-bba1bab6c94a" />
 
+----
+
 <img width="470" height="470" alt="Jenkins-build#9-console-2" src="https://github.com/user-attachments/assets/b1093be6-6993-478a-924d-7e74fb001eb4" />
 
+----
+
 <img width="466" height="467" alt="Jenkins-build#9-console-3" src="https://github.com/user-attachments/assets/818e45e0-0d61-4b24-bb58-449c5bbab044" />
+
+----
 
 
 ### 4. Running Application
