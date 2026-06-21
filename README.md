@@ -21,6 +21,44 @@ Docker Container Deployment
 ↓
 Flask Application (Live)
 
+### 🏗️ Architecture Diagram
+
+                    ┌────────────────────────────┐
+                    │        GitHub Repo         │
+                    │  (Source Code + Jenkinsfile)│
+                    └────────────┬───────────────┘
+                                 │
+                                 │ Git Push / Webhook
+                                 ▼
+                    ┌────────────────────────────┐
+                    │          Jenkins            │
+                    │   CI/CD Automation Server   │
+                    │                            │
+                    │  - Checkout Code           │
+                    │  - Build Docker Image      │
+                    │  - Run Pipeline            │
+                    └────────────┬───────────────┘
+                                 │
+                                 │ Docker Build & Deploy
+                                 ▼
+                    ┌────────────────────────────┐
+                    │        Docker Engine        │
+                    │   Container: Flask App      │
+                    │   Port Mapping: 5000 → 8081 │
+                    └────────────┬───────────────┘
+                                 │
+                                 │ HTTP Request
+                                 ▼
+                    ┌────────────────────────────┐
+                    │        AWS EC2 Server       │
+                    │   Ubuntu Linux Instance     │
+                    └────────────┬───────────────┘
+                                 │
+                                 ▼
+                    ┌────────────────────────────┐
+                    │      Web Browser UI         │
+                    │ http://13.60.15.129:8081    │
+                    └────────────────────────────┘
 
 ---
 
