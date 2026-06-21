@@ -67,11 +67,9 @@ GitHub Webhooks automatically trigger Jenkins builds on every push to the main b
 
 ## 🌐 Live Application
 
-- Flask App (Docker):  
-  `http://13.60.15.129:5000`
+- Flask App (Docker): [http://13.60.15.129:5000](http://13.60.15.129:5000)
+- Latest Version: [http://13.60.15.129:8081](http://13.60.15.129:8081)
 
-- Latest Deployment:  
-  `http://13.60.15.129:8081`
 
 ---
 
@@ -80,14 +78,32 @@ GitHub Webhooks automatically trigger Jenkins builds on every push to the main b
 ### 1. GitHub Commit History
 (Shows webhook-triggering commits)
 
+<img width="823" height="473" alt="github-commits" src="https://github.com/user-attachments/assets/4a405d27-28b7-4833-86b0-f97f4f27b751" />
+
+
 ### 2. Jenkins Pipeline Success
 (Build # showing successful execution)
+
+<img width="417" height="430" alt="Jenkins-jobs-build" src="https://github.com/user-attachments/assets/6bb6735b-bc21-4758-be7b-7acb5f6b0127" />
 
 ### 3. Jenkins Console Output
 (Docker build + deployment logs)
 
+<img width="577" height="472" alt="Jenkins-build#9-console-1" src="https://github.com/user-attachments/assets/20db4ebc-ab86-4256-bae4-bba1bab6c94a" />
+
+<img width="470" height="470" alt="Jenkins-build#9-console-2" src="https://github.com/user-attachments/assets/b1093be6-6993-478a-924d-7e74fb001eb4" />
+
+<img width="466" height="467" alt="Jenkins-build#9-console-3" src="https://github.com/user-attachments/assets/818e45e0-0d61-4b24-bb58-449c5bbab044" />
+
+
 ### 4. Running Application
 (Live Flask app in browser)
+
+<img width="388" height="109" alt="port-5000-version-1" src="https://github.com/user-attachments/assets/04ef2d43-5fbd-4ec3-afdc-eaffdf7eb989" />
+
+<img width="407" height="72" alt="port-8081-version-2" src="https://github.com/user-attachments/assets/6c179eb4-acea-4a2c-8a93-8c649e6cb96d" />
+
+<img width="398" height="67" alt="port-8081-version-3-webhook-build" src="https://github.com/user-attachments/assets/1953c352-55fe-411f-88bd-bac892fb7f36" />
 
 ---
 
